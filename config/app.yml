@@ -1,0 +1,21 @@
+mysql:
+  localhost: 127.0.0.1
+  port: 3306
+  username: root
+  password: admin123
+  database: zhiliao
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+  selectDb: 5
+  polSize: 30
+  minIdleConn: 30
+
+email:
+  title: "goRelease"  #邮箱标题
+  fromAcoont: "xxxx@qq.com" #发送者邮箱号
+  password: "xxxxx"  ##邮箱的授权码
+  smtAddr: "xxxx"  ##你的邮箱服务器地址
+  smtpPort: 587  #端口号
