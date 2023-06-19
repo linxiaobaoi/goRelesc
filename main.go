@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/linxiaobaoi/goRelesc.git/config"
-	"github.com/linxiaobaoi/goRelesc.git/router"
+	"github.com/linxiaobaoi/goRelesc/config"
+	"github.com/linxiaobaoi/goRelesc/router"
 )
 
 func main() {

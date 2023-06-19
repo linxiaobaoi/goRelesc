@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/linxiaobaoi/goRelesc.git/controller"
+	"github.com/linxiaobaoi/goRelesc/controller"
 )
 
 func AppRouter() {

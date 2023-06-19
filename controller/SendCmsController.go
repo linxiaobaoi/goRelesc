@@ -11,8 +11,8 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/linxiaobaoi/goRelesc.git/config"
-	"github.com/linxiaobaoi/goRelesc.git/service"
+	"github.com/linxiaobaoi/goRelesc/config"
+	"github.com/linxiaobaoi/goRelesc/service"
 	"net/http"
 )
 

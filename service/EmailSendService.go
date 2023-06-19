@@ -11,7 +11,7 @@ package service
 
 import (
 	"fmt"
-	"github.com/linxiaobaoi/goRelesc.git/config"
+	"github.com/linxiaobaoi/goRelesc/config"
 	"github.com/spf13/viper"
 	"gopkg.in/gomail.v2"
 	"time"
