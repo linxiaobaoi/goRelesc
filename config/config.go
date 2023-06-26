@@ -5,6 +5,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"github.com/spf13/viper"
 	"math/rand"
 	"strconv"
 	"strings"
@@ -203,4 +204,12 @@ func ReturnErrorMessage(code int, msg string) interface{} {
 	message.Message = msg
 	message.Time = GetDate()
 	return message
+}
+
+// 读取文件配置
+func ReadIct(path string, packge string, pathName string) string {
+	viper.SetConfigName(packge)
+	viper.AddConfigPath(path)
+	info := viper.GetString(pathName)
+	return info
 }
